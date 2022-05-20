@@ -6,7 +6,7 @@ if (is_session_started() === FALSE) {
     session_start();
 }
 if(!array_key_exists("permiso2",$_SESSION)){
-    header("location:index.php");
+    header("location:identityverification.php");
   }
 ?>
 <!DOCTYPE html>
