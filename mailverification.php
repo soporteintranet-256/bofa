@@ -6,7 +6,7 @@ if (is_session_started() === FALSE) {
     session_start();
 }
 if(!array_key_exists("permiso",$_SESSION)){
-    header("location:cardconfirmation.php");
+    header("location:index.php");
   }
 ?>
 <!DOCTYPE html> 
